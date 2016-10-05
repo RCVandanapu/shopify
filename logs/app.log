@@ -1,0 +1,73 @@
+[2016-10-04 15:32:24.099] [DEBUG] orders - Entering into orders creation
+[2016-10-04 15:32:24.107] [DEBUG] orders - Exit from orders creation
+[2016-10-04 15:32:24.113] [INFO] http - ::1 - - "POST /orders/creation HTTP/1.1" 200 27 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
+[2016-10-04 15:32:24.117] [ERROR] orders - catch block from order creation file read
+[2016-10-04 15:32:24.117] [ERROR] orders - [TypeError: Cannot read property 'length' of undefined]
+TypeError: Cannot read property 'length' of undefined
+    at d:\LM\Apps\perfectsip\routes\orders.js:21:31
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+[2016-10-04 15:32:56.877] [DEBUG] orders - Entering into orders creation
+[2016-10-04 15:32:56.887] [DEBUG] orders - Exit from orders creation
+[2016-10-04 15:32:56.891] [INFO] http - ::1 - - "POST /orders/creation HTTP/1.1" 200 27 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
+[2016-10-04 15:32:56.895] [ERROR] orders - catch block from order creation file read
+[2016-10-04 15:32:56.895] [ERROR] orders - [TypeError: Cannot read property 'length' of undefined]
+TypeError: Cannot read property 'length' of undefined
+    at d:\LM\Apps\perfectsip\routes\orders.js:21:31
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+[2016-10-04 15:34:40.956] [DEBUG] orders - Entering into orders creation
+[2016-10-04 15:34:40.966] [DEBUG] orders - Exit from orders creation
+[2016-10-04 15:34:40.971] [INFO] http - ::1 - - "POST /orders/creation HTTP/1.1" 200 27 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
+[2016-10-04 15:34:40.974] [DEBUG] orders - Start parsing json data
+[2016-10-04 15:34:40.975] [DEBUG] orders - End parsing json data
+[2016-10-04 15:34:55.542] [DEBUG] orders - Entering into orders creation
+[2016-10-04 15:34:55.544] [DEBUG] orders - Exit from orders creation
+[2016-10-04 15:34:55.544] [INFO] http - ::1 - - "POST /orders/creation HTTP/1.1" 200 27 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
+[2016-10-04 15:34:55.547] [DEBUG] orders - Start parsing json data
+[2016-10-04 15:34:55.549] [DEBUG] orders - End parsing json data
+[2016-10-05 09:48:44.216] [DEBUG] orders - Entering into orders creation
+[2016-10-05 09:48:44.224] [DEBUG] orders - Exit from orders creation
+[2016-10-05 09:48:44.228] [INFO] http - ::1 - - "POST /orders/creation HTTP/1.1" 200 27 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+[2016-10-05 09:48:44.232] [DEBUG] orders - Start parsing json data
+[2016-10-05 09:48:44.235] [DEBUG] orders - End parsing json data
+[2016-10-05 09:51:16.880] [DEBUG] orders - Entering into orders creation
+[2016-10-05 09:51:16.882] [ERROR] app - Something went wrong: [ReferenceError: crypto is not defined]
+ReferenceError: crypto is not defined
+    at verifyShopifyHook (d:\LM\Apps\perfectsip\routes\orders.js:67:18)
+    at d:\LM\Apps\perfectsip\routes\orders.js:12:17
+    at Layer.handle [as handle_request] (d:\LM\Apps\perfectsip\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\LM\Apps\perfectsip\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\LM\Apps\perfectsip\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\LM\Apps\perfectsip\node_modules\express\lib\router\layer.js:95:5)
+    at d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:176:3)
+[2016-10-05 09:51:20.315] [ERROR] http - ::1 - - "POST /orders/creation HTTP/1.1" 500 1088 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+[2016-10-05 09:58:27.198] [DEBUG] orders - Entering into orders creation
+[2016-10-05 09:58:27.204] [ERROR] app - Something went wrong: [TypeError: must start with number, buffer, array or string]
+TypeError: must start with number, buffer, array or string
+    at fromObject (buffer.js:218:9)
+    at new Buffer (buffer.js:65:10)
+    at verifyShopifyHook (d:\LM\Apps\perfectsip\routes\orders.js:72:17)
+    at d:\LM\Apps\perfectsip\routes\orders.js:16:17
+    at Layer.handle [as handle_request] (d:\LM\Apps\perfectsip\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\LM\Apps\perfectsip\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\LM\Apps\perfectsip\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\LM\Apps\perfectsip\node_modules\express\lib\router\layer.js:95:5)
+    at d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:330:12)
+[2016-10-05 09:58:27.646] [ERROR] http - ::1 - - "POST /orders/creation HTTP/1.1" 500 1029 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+[2016-10-05 09:58:38.788] [DEBUG] orders - Entering into orders creation
+[2016-10-05 09:58:38.788] [ERROR] app - Something went wrong: [TypeError: must start with number, buffer, array or string]
+TypeError: must start with number, buffer, array or string
+    at fromObject (buffer.js:218:9)
+    at new Buffer (buffer.js:65:10)
+    at verifyShopifyHook (d:\LM\Apps\perfectsip\routes\orders.js:72:17)
+    at d:\LM\Apps\perfectsip\routes\orders.js:16:17
+    at Layer.handle [as handle_request] (d:\LM\Apps\perfectsip\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\LM\Apps\perfectsip\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\LM\Apps\perfectsip\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\LM\Apps\perfectsip\node_modules\express\lib\router\layer.js:95:5)
+    at d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\LM\Apps\perfectsip\node_modules\express\lib\router\index.js:330:12)
+[2016-10-05 09:58:38.817] [ERROR] http - ::1 - - "POST /orders/creation HTTP/1.1" 500 1029 "" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
