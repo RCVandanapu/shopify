@@ -5,7 +5,7 @@ var log = require('log4js').getLogger("index");
 /* GET home page. */
 router.get('/', function(req, res, next) {
     log.debug("Entering into index /");
-    res.render('index', { title: 'Express' });
+    res.render('index', { title: 'Hai' });
     log.debug("Exit from index /");
 });
 
